@@ -38,7 +38,6 @@ function buyProperty() external payable {
 }
 
 receive() external payable {
-    require(msg.value <= 99 ether, "amount must be 99 ether");
 }
 
 // Error Handling in Solidity
